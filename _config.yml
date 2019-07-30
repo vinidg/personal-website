@@ -1,4 +1,4 @@
-layout: sidebar
+layout: stacked
 style: dark
 
 webserver_headers:
@@ -14,12 +14,32 @@ plugins:
 permalink: /:year/:month/:day/:title/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
       layout: "post"
+
+apps:
+
+   - name: Duarte Store
+     web_url: https://github.com/vinidg/Duarte-store
+     image_url: https://github.com/vinidg/Duarte-store/blob/master/src/assets/imgs/icone-home.png?raw=true
+     description: Application made on Ionic 3, Connected to a Spring Boot API and MongoDB database. In conjunction with a Java task execution service, the order delivery status update function integrated with OneSignal for push notification.
+
+skills:
+
+   - name: Java
+     web_url: https://github.com/topics/java
+     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png
+
+   - name: Spring Framework
+     web_url: https://github.com/topics/spring-boot
+     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/spring-boot/spring-boot.png
+
+   - name: Angular
+     web_url: https://github.com/topics/angular
+     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png
 
 topics:
 
@@ -39,27 +59,6 @@ topics:
     web_url: https://github.com/topics/react
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/react/react.png
   
-apps:
-
-   - name: Duarte Store
-     web_url: https://github.com/vinidg/Duarte-store
-     image_url: https://github.com/vinidg/Duarte-store/blob/master/src/assets/imgs/icone-home.png?raw=true
-     description: Aplicativo feito em Ionic 3, conectado a uma API em Spring Boot e banco de dados MongoDB. Em conjunto com um serviço Java para execução de tasks, como a função de alterar os status de rastreio do pedido integrado com OneSignal para envio de Push Notification para o usuário.
-
-skills:
-
-   - name: Java
-     web_url: https://github.com/topics/java
-     image_url: http://lh6.ggpht.com/-2dptmpv2M28/T8gsZzJqvGI/AAAAAAAAh_0/VV032WSA8Ug/java_logo_thumb%25255B1%25255D.png?imgmax=800
-
-   - name: Spring Framework
-     web_url: https://github.com/topics/spring-boot
-     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/spring-boot/spring-boot.png
-
-   - name: Angular
-     web_url: https://github.com/topics/angular
-     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png
-
-   - name: Hibernate
-     web_url: https://github.com/topics/hibernate
-     image_url: 
+  - name: Python
+    web_url: https://github.com/topics/python
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png  
