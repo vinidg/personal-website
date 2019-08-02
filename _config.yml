@@ -26,6 +26,7 @@ apps:
      web_url: https://github.com/vinidg/Duarte-store
      image_url: https://github.com/vinidg/Duarte-store/blob/master/src/assets/imgs/icone-home.png?raw=true
      description: Application made on Ionic 3, Connected to a Spring Boot API and MongoDB database. In conjunction with a Java task execution service, the order delivery status update function integrated with OneSignal for push notification.
+     link: https://apps-vinidg.s3.amazonaws.com/duarte-store.apk
 
 skills:
 
