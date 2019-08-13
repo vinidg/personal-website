@@ -25,17 +25,16 @@
    -->
   
 
-<div class="github-component height-full {% if site.style == 'dark' %}box-shadow{% else %}border border-gray-light{% endif %} bg-white rounded-1 p-3">
-    {% if app.image_url %}
-    <img src="{{ app.image_url }}" width="64" height="64" class="mx-auto rounded-1 mb-3" alt="{{ app.name }}">
-    {% else %}
-    <div class="bg-blue-light f4 text-gray-light text-bold rounded-1 flex-shrink-0 text-center mx-auto mb-3"
-    style="width:64px; height:64px; line-height:64px;">#</div>
-    {% endif %}
-    <p class="f3 lh-condensed text-center link-gray-dark mb-0 mt-1">{{ app.name }}</p>
-    <div class="f5 text-gray mb-2 ws-normal mb-0 mt-1">{{ app.description }}</div>
-    <div class="mb-0 mt-1 text-center">
-        <a class="btn btn-block btn-primary" href="{{ app.link }}">Download APK</a>
-  </div>
+<div class="github-component height-full {% if site.style == 'dark' %}box-shadow{% else %}border border-gray-light{% endif %} 
+    bg-white rounded-1 p-3 d-flex flex-items-stretch flex-column ">
+      {% if app.image_url %}
+      <img src="{{ app.image_url }}" width="80" class="flex-self-center m-3 rounded-1 mb-3 mt-1" alt="{{ app.name }}">
+      {% else %}
+      <div class="bg-blue-light f4 text-gray-light text-bold rounded-1 flex-shrink-0 text-center mx-auto mb-3"
+      style="width:64px; height:64px; line-height:64px;">#</div>
+      {% endif %}
+      <p class="f3 lh-condensed text-center link-gray-dark mb-2">{{ app.name }}</p>
+      <p class="f5 text-gray ws-normal mt-1">{{ app.description }}</p>
+      <a class="btn btn-block btn-primary" style="margin-top: auto;" href="{{ app.link }}">Download APK</a>
 </div>
 
