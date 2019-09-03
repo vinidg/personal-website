@@ -32,7 +32,9 @@ apps:
      web_url: https://github.com/vinidg/omnistack-tindev/tree/master/frontend
      image_url: https://github.com/vinidg/omnistack-tindev/blob/master/logo.png?raw=true
      description: Mobile application made on React Native, connected to a Node API and MongoDB database. 
-     link: https://apps-vinidg.s3.amazonaws.com/tindev.apk
+     link-app: https://apps-vinidg.s3.amazonaws.com/tindev.apk
+     link-web: https://frontend-tindev-vinidg.herokuapp.com/
+
 
 skills:
 
