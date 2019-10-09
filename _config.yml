@@ -31,9 +31,17 @@ apps:
    - name: Tindev
      web_url: https://github.com/vinidg/omnistack-tindev/tree/master/frontend
      image_url: https://github.com/vinidg/omnistack-tindev/blob/master/logo.png?raw=true
-     description: Mobile application made on React Native, connected to a Node API and MongoDB database. 
+     description: Mobile application made on React Native, connected to a Node API and MongoDB database. The app is a copy of Tinder but in order to bring together developers where they will log in by Github username
      link-app: https://apps-vinidg.s3.amazonaws.com/tindev.apk
      link-web: https://frontend-tindev-vinidg.herokuapp.com/
+
+   - name: AirCnC
+     web_url: https://github.com/vinidg/omnistack-aircnc/tree/master/frontend
+     image_url: https://raw.githubusercontent.com/vinidg/omnistack-aircnc/master/mobile/src/assets/logo.png
+     description: Mobile application made on React Native, connected to a Node API and MongoDB database. The app is a copy of AirBnB to share the workspace with external developers.
+     link-app: https://apps-vinidg.s3.amazonaws.com/aircnc.apk
+     link-web: https://frontend-aircnc-vinidg.herokuapp.com/
+
 
 
 skills:

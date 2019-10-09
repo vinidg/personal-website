@@ -6,11 +6,11 @@
       <div class="bg-blue-light f4 text-gray-light text-bold rounded-1 flex-shrink-0 text-center mx-auto mb-3"
       style="width:64px; height:64px; line-height:64px;">#</div>
       {% endif %}
-      <p class="f3 lh-condensed text-center link-gray-dark mb-2">{{ app.name }}</p>
+      <p class="f3 lh-condensed text-center mb-2">{{ app.name }}</p>
       <p class="f5 text-gray ws-normal mt-1">{{ app.description }}</p>
-      <a class="btn btn-block btn-primary" style="margin-top: auto;" href="{{ app.link-app }}">Download APK</a>
+      <a class="btn btn-block btn-primary" style="margin-top: auto;" href="{{ app.link-app }}" target="_blank">Download APK</a>
       {% if app.link-web %}
-      <a class="btn btn-block btn-green" href="{{ app.link-web }}">Open Via Web</a>
+      <a class="btn btn-block btn-green" href="{{ app.link-web }}" target="_blank">Open Via Web</a>
       {% endif %}
 </div>
 
