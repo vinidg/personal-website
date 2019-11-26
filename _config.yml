@@ -22,63 +22,71 @@ defaults:
 
 apps:
 
-   - name: Duarte Store
-     web_url: https://github.com/vinidg/Duarte-store
-     image_url: https://github.com/vinidg/Duarte-store/blob/master/src/assets/imgs/icone-home.png?raw=true
-     description: Mobile application made on Ionic 3, connected to a Spring Boot API and MongoDB database. In conjunction with a Java task execution service, the order delivery status update function integrated with OneSignal for push notification.
-     link: https://apps-vinidg.s3.amazonaws.com/duarte-store.apk
+    - name: Duarte Store
+      web_url: https://github.com/vinidg/Duarte-store
+      image_url: https://github.com/vinidg/Duarte-store/blob/master/src/assets/imgs/icone-home.png?raw=true
+      description: Mobile application made on Ionic 3, connected to a Spring Boot API and MongoDB database. In conjunction with a Java task execution service, the order delivery status update function integrated with OneSignal for push notification.
+      link-app: https://apps-vinidg.s3.amazonaws.com/duarte-store.apk
 
-   - name: Tindev
-     web_url: https://github.com/vinidg/omnistack-tindev/tree/master/frontend
-     image_url: https://github.com/vinidg/omnistack-tindev/blob/master/logo.png?raw=true
-     description: Mobile application made on React Native, connected to a Node API and MongoDB database. The app is a copy of Tinder but in order to bring together developers where they will log in by Github username
-     link-app: https://apps-vinidg.s3.amazonaws.com/tindev.apk
-     link-web: https://frontend-tindev-vinidg.herokuapp.com/
+    - name: Tindev
+      web_url: https://github.com/vinidg/omnistack-tindev/tree/master/frontend
+      image_url: https://github.com/vinidg/omnistack-tindev/blob/master/logo.png?raw=true
+      description: Mobile application made on React Native, connected to a Node API and MongoDB database. The app is a copy of Tinder but in order to bring together developers where they will log in by Github username
+      link-app: https://apps-vinidg.s3.amazonaws.com/tindev.apk
+      link-web: https://frontend-tindev-vinidg.herokuapp.com/
 
-   - name: AirCnC
-     web_url: https://github.com/vinidg/omnistack-aircnc/tree/master/frontend
-     image_url: https://raw.githubusercontent.com/vinidg/omnistack-aircnc/master/mobile/src/assets/logo.png
-     description: Mobile application made on React Native, connected to a Node API and MongoDB database. The app is a copy of AirBnB to share the workspace with external developers.
-     link-app: https://apps-vinidg.s3.amazonaws.com/aircnc.apk
-     link-web: https://frontend-aircnc-vinidg.herokuapp.com/
+    - name: AirCnC
+      web_url: https://github.com/vinidg/omnistack-aircnc/tree/master/frontend
+      image_url: https://raw.githubusercontent.com/vinidg/omnistack-aircnc/master/mobile/src/assets/logo.png
+      description: Mobile application made on React Native, connected to a Node API and MongoDB database. The app is a copy of AirBnB to share the workspace with external developers.
+      link-app: https://apps-vinidg.s3.amazonaws.com/aircnc.apk
+      link-web: https://frontend-aircnc-vinidg.herokuapp.com/
 
+    - name: Automa
+      web_url: 
+      image_url: /assets/images/icone-automa.png
+      description: Mobile application made on Ionic 4, connected to a Rest API and MQTT Protocol. This project was developed for a client and its function is to control and organize any IoT device.
 
 
 skills:
 
-   - name: Java
-     web_url: https://github.com/topics/java
-     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png
-
-   - name: Spring Framework
-     web_url: https://github.com/topics/spring-boot
-     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/spring-boot/spring-boot.png
-
-   - name: Angular
-     web_url: https://github.com/topics/angular
-     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png
-
-   - name: Ionic
-     web_url: https://github.com/topics/ionic
-     image_url: https://cdn.auth0.com/blog/get-started-ionic/logo.png
-
-topics:
+  - name: Java
+    web_url: https://github.com/topics/java
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png
 
   - name: JavaScript
     web_url: https://github.com/topics/javascript
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
 
+  - name: Spring Framework
+    web_url: https://github.com/topics/spring-boot
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/spring-boot/spring-boot.png
+
+  - name: Angular
+    web_url: https://github.com/topics/angular
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png
+
+  - name: Ionic
+    web_url: https://github.com/topics/ionic
+    image_url: https://cdn.auth0.com/blog/get-started-ionic/logo.png
+
+  - name: React
+    web_url: https://github.com/topics/react
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/react/react.png   
+
   - name: NodeJS
     web_url: https://github.com/topics/nodejs
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png
 
+topics:
+  
   - name: Flutter
     web_url: https://github.com/topics/flutter
     image_url: https://raw.githubusercontent.com/github/explore/cebd63002168a05a6a642f309227eefeccd92950/topics/flutter/flutter.png
 
-  - name: React & React Native
-    web_url: https://github.com/topics/react
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/react/react.png
+  - name: React Native
+    web_url: https://github.com/topics/react-native
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react-native/react-native.png
   
   - name: Python
     web_url: https://github.com/topics/python
