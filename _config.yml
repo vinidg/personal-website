@@ -62,17 +62,9 @@ skills:
     web_url: https://github.com/topics/spring-boot
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/spring-boot/spring-boot.png
 
-  - name: Angular
-    web_url: https://github.com/topics/angular
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png
-
   - name: Ionic
     web_url: https://github.com/topics/ionic
     image_url: https://cdn.auth0.com/blog/get-started-ionic/logo.png
-
-  - name: React
-    web_url: https://github.com/topics/react
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/react/react.png   
 
   - name: NodeJS
     web_url: https://github.com/topics/nodejs
@@ -80,14 +72,10 @@ skills:
 
 topics:
   
-  - name: Flutter
-    web_url: https://github.com/topics/flutter
+  - name: Kotlin
+    web_url: https://github.com/topics/kotlin
     image_url: https://raw.githubusercontent.com/github/explore/cebd63002168a05a6a642f309227eefeccd92950/topics/flutter/flutter.png
 
-  - name: React Native
-    web_url: https://github.com/topics/react-native
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react-native/react-native.png
-  
   - name: Python
     web_url: https://github.com/topics/python
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png  
